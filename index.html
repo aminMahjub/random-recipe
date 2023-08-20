@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vite + TS</title>
+  <link rel="stylesheet" href="./dist/output.css" />
+</head>
+
+<body>
+  <div id="app" class="font-sans mx-auto max-w-3xl pt-10">
+    <section class="mb-2">
+      <h2 class="mb-2 text-2xl font-bold">Feeling Hungry??</h2>
+      <p class="mb-2">Get a random meal by clicking below</p>
+
+      <div class="flex justify-center items-center mt-4">
+        <button type="button" class="bg-cyan-500 p-3 text-white rounded-xl">
+          GET MEAL
+        </button>
+      </div>
+    </section>
+
+    <main class="mt-5">
+      <article class="flex justify-center items-center gap-x-5 flex-wrap">
+        <img src="https://www.themealdb.com/images/media/meals/wuxrtu1483564410.jpg" alt="" width="300" height="300"
+          loading="lazy" />
+
+        <section>
+          <h1 class="font-meduim text-3xl">Dal Fry</h1>
+          <p class="mt-2 max-w-md">Wash and soak toor dal in approx. 3 cups of water, for at least one hours. Dal will
+            be double
+            in volume after soaking. Drain the water. Cook dal with 2-1/2 cups water and add salt, turmeric, on medium
+            high heat, until soft in texture (approximately 30 mins) it should be like thick soup. In a frying pan, heat
+            the ghee. Add cumin seeds, and mustard seeds. After the seeds crack, add bay leaves, green chili, ginger and
+            chili powder. Stir for a few seconds. Add tomatoes, salt and sugar stir and cook until tomatoes are tender
+            and mushy. Add cilantro and garam masala cook for about one minute. Pour the seasoning over dal mix it well
+            and cook for another minute. Serve with Naan.</p>
+        </section>
+      </article>
+
+      <section class="">
+        <div class="font-bold text-xl">Category: <span class="font-light text-md">Vegetarian</span></div>
+        <div class="font-bold text-xl">Category: <span class="font-light text-md">Vegetarian</span></div>
+        <div class="font-bold text-xl">Category: <span class="font-light text-md">Vegetarian</span></div>
+      </section>
+
+      <section class="mt-6">
+        <h2 class="text-2xl font-bold">Ingredients: </h2>
+        <ul class="list-[circle] list-inside pl-2">
+          <li>Toor dal - 1 cup</li>
+        </ul>
+      </section>
+
+      <section class="">
+        <h3 class="">Video Recipe</h3>
+
+      </section>
+    </main>
+  </div>
+  <script type="module" src="/src/main.ts"></script>
+</body>
+
+</html>
